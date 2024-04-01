@@ -1,0 +1,6 @@
+n, m, k = map(int, raw_input().split())
+x, s = map(int, raw_input().split())
+listA = map(int, raw_input().split())
+listB = map(int, raw_input().split())
+listC = map(int, raw_input().split())
+listD = map(int, raw_input().split())

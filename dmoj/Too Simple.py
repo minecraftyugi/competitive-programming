@@ -1,0 +1,15 @@
+a = int(all([]))
+b = a + a
+print chr((b*b*b+a)*b*b*b)
+print chr(a+(b*b*b+a)*b*b+b**b**b*b*b)
+print chr((b*b*b+a)*(a+b)*b*b)*b
+print chr(((b*b*b+a)*(a+b)*b+a)*b+a)
+print chr((b*b*b+a+b)*b*b)
+print chr(b**b**b*b)
+print chr((((b*b+a)*b*b+a)*b+a)*b+a)
+print chr(((b*b*b+a)*(a+b)*b+a)*b+a)
+print chr(((b*b*b-a)*b*b*b+a)*b)
+print chr((b*b*b+a)*(a+b)*b*b)
+print chr(((a+b)*b*b*b+a)*b*b)
+print chr((b*b)**b*b+a)
+print(lambda:chr((b*b*b+a)*b*b*b)+chr(a+(b*b*b+a)*b*b+b**b**b*b*b)+chr((b*b*b+a)*(a+b)*b*b)*b+chr(((b*b*b+a)*(a+b)*b+a)*b+a)+chr((b*b*b+a+b)*b*b)+chr(b**b**b*b)+chr((((b*b+a)*b*b+a)*b+a)*b+a)+chr(((b*b*b+a)*(a+b)*b+a)*b+a)+chr(((b*b*b-a)*b*b*b+a)*b)+chr((b*b*b+a)*(a+b)*b*b)+chr(((a+b)*b*b*b+a)*b*b)+chr((b*b)**b*b+a))()
